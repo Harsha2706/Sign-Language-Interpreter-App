@@ -1,13 +1,13 @@
 # 🤟 Sign Language Interpreter Application
 
-## 📌 Overview
+##  Overview
 This project is a real-time Sign Language Interpreter system designed to recognize hand gestures and convert them into readable text. It helps reduce communication barriers between hearing-impaired individuals and others by enabling gesture-to-text translation using computer vision and machine learning.
 
 The system captures live video from a webcam, processes hand gestures frame by frame, and predicts the corresponding alphabet or word using a trained model.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 - Real-time hand gesture recognition using webcam  
 - Converts sign language gestures into text output  
 - Frame-by-frame processing for better accuracy  
@@ -16,7 +16,7 @@ The system captures live video from a webcam, processes hand gestures frame by f
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 1. Webcam captures live video input  
 2. Hand region is detected and isolated  
 3. Frames are preprocessed (resize, normalization, etc.)  
@@ -26,7 +26,7 @@ The system captures live video from a webcam, processes hand gestures frame by f
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 - Python  
 - OpenCV  
 - NumPy  
@@ -36,7 +36,7 @@ The system captures live video from a webcam, processes hand gestures frame by f
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 sign-language-interpreter/
 │
 ├── dataset/ # Gesture image dataset
@@ -54,7 +54,7 @@ sign-language-interpreter/
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the repository
 ```bash
