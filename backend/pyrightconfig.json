@@ -1,0 +1,7 @@
+{
+    "venvPath": "F:/harsha/sign language",
+    "venv": "venv",
+    "include": [
+        "."
+    ]
+}
