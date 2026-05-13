@@ -89,10 +89,3 @@ Improve accuracy using CNN + LSTM models
 Multi-language sign support
 Mobile/web deployment
 Speech output integration
-
-### Author
-
-Harshavardhini
-
-GitHub: [Harsha2706](https://github.com/Harsha2706)
-LinkedIn: [linkedin profile](https://www.linkedin.com/in/harshavardhini-e-ba7b19300/)
