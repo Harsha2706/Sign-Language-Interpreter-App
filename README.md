@@ -6,7 +6,9 @@ This project is a real-time Sign Language Interpreter system designed to recogni
 The system captures hand gestures through a camera, processes the input frames, extracts key features, and predicts the corresponding alphabet/word using a trained model.
 
 **Key Features**
+
 Real-time hand gesture recognition through webcam
+
 Converts sign language gestures into text output
 Frame-by-frame image processing for accuracy improvement
 Simple and responsive user interface
