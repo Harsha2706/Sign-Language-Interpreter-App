@@ -1,33 +1,31 @@
-# Sign-Language-Interpreter-App
-**Overview**
+Sign Language Interpreter Application
+Overview
 
-This project is a real-time Sign Language Interpreter system designed to recognize hand gestures and translate them into readable text. The goal is to reduce communication gaps between hearing-impaired individuals and others by enabling gesture-to-text conversion using computer vision and machine learning techniques.
+This project is a real-time Sign Language Interpreter system designed to recognize hand gestures and convert them into readable text. It aims to reduce communication barriers between hearing-impaired individuals and others by enabling gesture-to-text translation using computer vision and machine learning.
 
-The system captures hand gestures through a camera, processes the input frames, extracts key features, and predicts the corresponding alphabet/word using a trained model.
+The system captures live hand gestures through a webcam, processes each frame, extracts relevant features, and predicts the corresponding alphabet or word using a trained model.
 
-**Key Features**
-
-Real-time hand gesture recognition through webcam
-
+✨ Key Features
+Real-time hand gesture recognition using webcam
 Converts sign language gestures into text output
-Frame-by-frame image processing for accuracy improvement
-Simple and responsive user interface
-Works in real-time without requiring external sensors
-**How It Works**
-The webcam captures live video feed
-Hand region is detected and isolated from background
-Frames are preprocessed (resizing, grayscale/normalization if applied)
+Frame-by-frame processing for better accuracy
+Lightweight and responsive interface
+Works without any external hardware sensors
+⚙️ How It Works
+The webcam captures live video input
+Hand region is detected and isolated from the background
+Each frame is preprocessed (resizing, normalization, etc.)
 Features are extracted from gesture images
-The trained ML model predicts the corresponding sign
-Output is displayed as text on screen
-**Tech Stack**
+A trained ML model predicts the corresponding sign
+The predicted output is displayed as text on screen
+🧠 Tech Stack
 Python
 OpenCV
 NumPy
-TensorFlow / Keras (or Scikit-learn depending on model used)
+TensorFlow / Keras (or Scikit-learn depending on model)
 MediaPipe (if used for hand tracking)
-Flask (optional, if deployed as web app)
-**Project Structure**
+Flask (optional for web deployment)
+📁 Project Structure
 sign-language-interpreter/
 │
 ├── dataset/              # Gesture image dataset
@@ -35,37 +33,37 @@ sign-language-interpreter/
 ├── training/             # Model training scripts
 ├── app/                  # Main application (real-time detection)
 │   ├── main.py
-│   ├── detector.py
+│   └── detector.py
 │
 ├── static/               # UI assets (if web-based)
 ├── templates/            # HTML files (if Flask used)
 ├── requirements.txt
 └── README.md
-**Installation & Setup**
-Step 1: Clone the repository
-git clone [https://github.com/Harsha2706/Sign-Language-Interpreter-App.git](https://github.com/Harsha2706/Sign-Language-Interpreter-App.git)
-cd sign-language-interpreter
-Step 2: Install dependencies
+🚀 Installation & Setup
+1. Clone the repository
+git clone https://github.com/Harsha2706/Sign-Language-Interpreter-App.git
+cd Sign-Language-Interpreter-App
+2. Install dependencies
 pip install -r requirements.txt
-Step 3: Run the application
+3. Run the application
 python app/main.py
-**Output**
-Displays predicted sign language character/word in real time
+📊 Output
+Displays predicted sign language characters/words in real time
 Provides continuous feedback based on live gestures
-**Challenges Faced**
-Variations in lighting conditions affecting detection accuracy
+⚠️ Challenges Faced
+Variations in lighting affecting detection accuracy
 Background noise interfering with hand segmentation
-Similar gestures causing misclassification
-Improving real-time prediction speed while maintaining accuracy
-**Future Improvements**
-Expand dataset to include full sentence-level sign language
-Improve accuracy using deep learning models (CNN + LSTM)
-Add support for multiple sign languages
-Deploy as a mobile or web-based application
-Integrate speech output for better accessibility
-**Author**
+Similar gestures leading to misclassification
+Balancing real-time speed with model accuracy
+🔮 Future Improvements
+Expand dataset for full sentence-level recognition
+Improve accuracy using CNN + LSTM deep learning models
+Support multiple sign languages
+Deploy as a mobile or web application
+Add speech output for better accessibility
+👨‍💻 Author
 
 Harshavardhini
-GitHub: [https://github.com/your-usernam](https://github.com/Harsha2706)
+GitHub: https://github.com/Harsha2706
 
-LinkedIn: [https://linkedin.com/in/your-profile](https://www.linkedin.com/in/harshavardhini-e-ba7b19300/)
+LinkedIn: https://linkedin.com/in/your-profile
